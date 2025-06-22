@@ -30,4 +30,4 @@ Run testcases:
 - docker-compose run --rm php composer test
 
 Run analysis:
-- docker-compose run --rm php composer analysis
+- docker-compose run --rm php composer analyse
