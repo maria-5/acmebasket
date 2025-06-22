@@ -4,6 +4,12 @@ This is a simple PHP project that implements a shopping basket system for Acme W
 
 ---
 
+## Assumptions
+
+Prices are stored in cents using MoneyPHP for precision
+
+---
+
 ## Requirements
 
 You will need the following software installed:
