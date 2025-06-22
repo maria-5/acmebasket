@@ -1,0 +1,19 @@
+{
+  "name": "acme/widget-basket",
+  "autoload": {
+    "psr-4": {
+      "Acme\\": "src/"
+    }
+  },
+  "require": {
+    "moneyphp/money": "^4.0"
+},
+  "require-dev": {
+    "phpunit/phpunit": "^10.5",
+    "phpstan/phpstan": "^1.11"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "analyse": "vendor/bin/phpstan analyse"
+  }
+}
